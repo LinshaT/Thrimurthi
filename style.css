@@ -1,0 +1,181 @@
+
+.container {
+    position: relative;
+    font-family: Arial;
+    background-size: cover ;
+  }
+  
+  .text-block {
+    position: absolute;
+    width:200px;
+    height: 140px;
+   
+    text-align: center;
+    background: rgba(255,255,255,0.76);
+    backdrop-filter: blur(-30px);
+    border-radius: 30px 30px  0px 0px;
+
+    bottom: 2px;
+    right: 20px;
+    color:black;
+    margin-right: 30px;
+    
+   
+  }
+
+ 
+
+.ring{
+    float: right;
+    width: 100px;
+    height: 150px;
+    padding-left:30px ;
+    margin-top: -135px;
+    
+}
+
+.text1{
+    color:hsl(0, 0%, 0%);
+    font-size:  13px;
+    font-weight:300px;
+    margin-top: -30px;
+    padding-left: 1px;
+ 
+}
+
+.text2{
+    color:rgb(117, 79, 9);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -50px;
+    padding:10px;
+    padding-left: 10px;
+    
+    
+}
+.san {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(56, 53, 53);
+    margin-top: 15px;
+  }
+  .san:before, .san:after {
+    background-color: #ddd;
+    content: '\a0';
+    flex-grow:1;
+    height: 1px;
+    position: relative;
+    top: 0.5em;
+  
+  }
+  .san:before {
+    margin-right:10px;
+  
+  }
+  .san:after {
+    margin-left:10px;
+  
+  }
+  .container {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .image-bg {
+    width: 350px;
+    height: 200px;
+    background-image: url('neck.png');
+    /* object-fit: fill; */
+    background-size: cover;
+  }
+  .card_custom{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-left: 100;
+    background-color: rgba(255, 255, 255, 0.281);
+  }
+  .text-block3 {
+    width: 150px;
+    position: absolute;
+    overflow-wrap: break-word;
+  }
+  .text-block1 {
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    background-position:center;
+    text-align: center;
+    background:rgba(112, 68, 3, 0.76);
+    backdrop-filter: blur(-10px);
+    border-radius: 0px 0px  10px 10px;
+    bottom: 0px;
+    color:white;
+  }
+  .condainer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text-block2{
+    position: absolute;
+    bottom: 50;
+    width:12rem;
+    height:5erm ;
+   text-align: center;
+    background:rgba(207, 207, 207, 0.76);
+    backdrop-filter: blur(-10px);
+    border-radius: 0px 0px  10px 10px;
+    bottom: 0px;
+    color:rgb(14, 7, 7);
+    margin-right: 5%;
+   
+   
+    text-align: center;  
+  }
+
+  .necklace{
+    display: inline-block;
+    padding-top: 40px;
+
+      
+}
+.neck{
+          
+            object-fit:cover;
+     		object-position: left;
+            width:400px;
+            height:200px;
+            border-radius: 30px;
+            
+            
+}
+
+.hotround
+{
+  border-radius: 20px;
+}
+  
+body{
+  padding: 2rem 0rem;
+}
+.card-img-overlay {
+  background-color: rgba(#000, 0.4);
+}
+.overlay-text {
+  /* these two are needed - the align self makes the column not stretch the whole height of the image column and the translate moves the column over the image */
+  align-self: flex-start;
+  transform: translateX(-20%);
+
+  /* the following are for example only */
+  background-color: #ffffff;
+  padding:20px;
+}
+.img-rd
+{
+  border-radius: 20px;
+}
+
+
+
